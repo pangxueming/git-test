@@ -1,5 +1,6 @@
 function fn(a, b) {
-  return a + b;
+  let res = a + b;
+  return console.log(res);
 }
 
-fn(2, 3);
+fn(4, 3);
